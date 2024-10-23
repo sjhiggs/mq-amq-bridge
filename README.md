@@ -4,7 +4,7 @@ Sends messages with the following flow:
 
 camel-timer-mq-route --> ibm-mq --> camel-mq-amq-route --> amq7 --> camel-amq-mq-route --> camel-mq-log-route
 
-N.B. - this project is not supported by Red Hat!
+N.B. - Example Only!  This project is not supported by Red Hat!
 
 # Sources
 
