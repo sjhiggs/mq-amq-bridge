@@ -82,7 +82,7 @@ public class MqConfig  {
         jms.setConnectionFactory(jmsPoolConnectionFactory());
         jms.setCacheLevelName("CACHE_CONSUMER");
         jms.setTransacted(true);
-        jms.setAcknowledgementModeName("AUTO_ACK");
+        //jms.setAcknowledgementModeName("AUTO_ACK");
         return jms;
     }
 
